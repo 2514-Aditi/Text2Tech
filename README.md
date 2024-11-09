@@ -4,7 +4,7 @@
 
 ## Features
 
-- **Handwritten Code Recognition**: Convert images of handwritten code into digital, editable text.
+- **Code Recognition**: Convert images of handwritten or screenshot code into digital, editable text.
 - **Code Editor**: Modify transcribed code directly within the application.
 - **Integrated Compiler**: Instantly compile and run code to verify its functionality.
 - **Collaboration Tools**: Easily share digitized code with peers, educators, or teammates.
