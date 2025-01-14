@@ -1,0 +1,51 @@
+/* Importing Google Font (Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.image-upload {
+    border: 2px dashed #cccccc;
+    padding: 40px;
+    text-align: center;
+    margin: 100px auto; /* Centering the box with some space from top */
+    width: 60%; /* Adjust width of the box */
+    border-radius: 8px; /* Optional: rounded corners */
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visual effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload::before {
+    content: "Upload An Image"; /* Text content for the label */
+    font-family: 'Roboto', sans-serif; /* Applying the custom font */
+    font-size: 24px; /* Increased font size */
+    font-weight: 700; /* Making the font bold */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="file"]:hover {
+    border-color: #888;
+}
+
+.upload-icon {
+    font-size: 48px;
+    color: #cccccc;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+}

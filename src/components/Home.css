@@ -1,0 +1,54 @@
+/* Home component layout */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to right, #dab0db, #745e75);/* Dark background color like navbar */
+  color: white; /* Text color to match the navbar */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Same font family as navbar */
+}
+
+/* Content container to divide into two halves */
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Set width to control the content width */
+  max-width: 1400px; /* Limit max width */
+}
+
+/* Left side for text */
+.text-side {
+  flex: 1; /* Take up half the space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.text-side h1 {
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 2px; /* Adjust the left margin */
+}
+
+/* Right side for image */
+.image-side {
+  flex: 1; /* Take up half the space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-side img {
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width */
+  border-radius: 10px;
+  object-fit: contain; /* Maintain image aspect ratio */
+}
